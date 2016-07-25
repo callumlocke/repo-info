@@ -1,4 +1,4 @@
-# repo-info
+# repo-info [![Build Status](https://travis-ci.org/callumlocke/repo-info.svg?branch=master)](https://travis-ci.org/callumlocke/repo-info)
 
 A function that returns some basic information about a local repo.
 
