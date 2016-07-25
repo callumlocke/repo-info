@@ -5,7 +5,7 @@ A function that returns some basic information about a local repo.
 ```js
 var repoInfo = require('repo-info');
 
-var info = repoInfo('some/local/repo/path');
+var info = repoInfo('/some/local/repo');
 ```
 
 Synchronously returns an object like this:
@@ -19,7 +19,7 @@ Synchronously returns an object like this:
 }
 ```
 
-Notes:
+Properties:
 
 - `isClean` – whether the working directory is clean (i.e. no changes and no untracked files).
 - `currentBranch` – the name of the current branch.
