@@ -1,7 +1,7 @@
 {
   "name": "repo-info",
   "description": "Function that takes a path to a local repository and returns an information object.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "dependencies": {
     "execa": "^0.4.0",
     "parse-github-url": "^0.3.1"
