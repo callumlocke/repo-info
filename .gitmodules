@@ -1,3 +1,0 @@
-[submodule "fixtures/lpad"]
-	path = fixtures/lpad
-	url = https://github.com/sindresorhus/lpad.git
