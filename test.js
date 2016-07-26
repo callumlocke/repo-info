@@ -8,6 +8,8 @@ import test from 'ava';
 const fixtureDir = path.join(__dirname, 'fixtures', 'lpad');
 
 test.beforeEach(async () => {
+  console.log('DEBUG: git remote -v:', await execa('git', ['remote', '-v'], { cwd: fixtureDir }));
+
   await execa('git', ['checkout', 'master'], { cwd: fixtureDir });
   await execa('git', ['clean', '-dxf'], { cwd: fixtureDir });
 
