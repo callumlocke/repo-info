@@ -9,6 +9,7 @@ const fixtureDir = path.join(__dirname, 'fixtures', 'lpad');
 
 test.beforeEach(async () => {
   console.log('DEBUG: git remote -v:', await execa('git', ['remote', '-v'], { cwd: fixtureDir }));
+  console.log('DEBUG: git remote get-url origin:', await execa('git', ['remote', 'get-url', 'origin'], { cwd: fixtureDir }));
 
   await execa('git', ['checkout', 'master'], { cwd: fixtureDir });
   await execa('git', ['clean', '-dxf'], { cwd: fixtureDir });
