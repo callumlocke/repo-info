@@ -2,6 +2,12 @@
 
 A function that returns some basic information about a local repo.
 
+```sh
+> npm install repo-info
+```
+
+## Usage
+
 ```js
 var repoInfo = require('repo-info');
 
